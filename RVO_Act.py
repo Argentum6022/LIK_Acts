@@ -2,7 +2,7 @@ from docxtpl import DocxTemplate
 import datetime
 import os
 
-def ruo(file_path,date,date_test,number,customer,receiving,well,date_on_well,seal,dop_acts):
+def rvo():
     #Ввод данных
     file_path=str(input('Введите путь папки: '))
     date=str(input('Введите дату и время получения раствора: '))
